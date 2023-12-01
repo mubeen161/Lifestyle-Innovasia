@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meditation Guide</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #6dacee;
+        }
+        header {
+            background-color: #4103fb;
+            padding: 20px;
+            padding-bottom: 2px;
+            /* color: #ffffff; */
+            text-align: center;
+            font-size: 1.8em;
+            font-style: normal;
+            font-weight: bolder;
+            text-shadow: rgb(174, 255, 0) 1px 0 10px;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #ffffff;
+        }
+        nav a {
+            color: rgb(2, 2, 2);
+            text-decoration: none;
+            padding: 10px 20px;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        iframe {
+            width: 100%;
+            height: 400px;
+            border: none;
+        }
+        .container h2{
+            font-size: 2em;
+            font-style: italic;
+            /* text-shadow: #d3fc04; */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>MEDITATION GUIDE</h1>
+        <!-- <p>Welcome to our meditation guide with YouTube videos!</p> -->
+    </header>
+    <nav>
+        <a href="#beginner">Beginner</a>
+        <a href="#intermediate">Intermediate</a>
+        <a href="#advanced">Advanced</a>
+    </nav>
+    <div class="container">
+        <section id="beginner">
+            <h2>BEGINNER MEDITATION</h2>
+            <iframe src="https://www.youtube.com/embed/DulNz2CkoHI" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <!-- <p>Introduction to basic meditation techniques for beginners.</p> -->
+        </section>
+        <section id="intermediate">
+            <h2>INTERMEDIATE MEDITATION</h2>
+            <iframe src="https://www.youtube.com/embed/ECHxnCJYrpM" allowfullscreen></iframe>
+            <!-- <p>Building upon foundational meditation practices.</p> -->
+        </section>
+        <section id="advanced">
+            <h2>ADVANCED MEDITATION</h2>
+            <iframe src="https://www.youtube.com/embed/varUYdNp3fY" allowfullscreen></iframe>
+            <!-- <p>Exploring deeper meditation techniques for experienced practitioners.</p> -->
+        </section>
+    </div>
+</body>
+</html>

@@ -1,0 +1,17 @@
+BOT: Hello, thank you for coming in, I am here to support you. To get started, Could you please share your name with me?
+USER: 
+BOT: Nice to meet you
+BOT: GreetingsWhat brings you in to see me today?
+USER: 
+BOT: that doesn't sound so good
+BOT: How do you feel about your social interactions??
+USER: 
+BOT: That is a very neutral view on your social interactions? and quite objective
+BOT: What is your take on your sleep patterns??
+USER: 
+BOT: That is a very neutral view on your sleep patterns? and quite objective
+BOT:  Do you like your personal achievements??
+USER: 
+BOT: That is a very neutral view on your personal achievements? and quite objective
+BOT: You are in a neutral mental state and is quite objective with thoughts
+BOT: I am glad we had this time to talkRemember, I am here to support you, and I look forward to our next session
